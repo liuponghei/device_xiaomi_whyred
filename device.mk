@@ -61,11 +61,12 @@ PRODUCT_PACKAGES += \
     libbt-vendor
 
 # Boot animation
-TARGET_SCREEN_HEIGHT := 2160
+TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1080
 
 # Camera
-$(call inherit-product, vendor/xiaomi/MiuiCamera/config.mk)
+PRODUCT_PACKAGES += \
+    SnapdragonCamera2
 
 # Connectivity Engine support (CNE)
 PRODUCT_PACKAGES += \
@@ -306,10 +307,10 @@ PRODUCT_PACKAGES += \
     thermal.sdm660
 
 # Treble makefile
-$(call inherit-product, device/xiaomi/whyred/treble.mk)
+$(call inherit-product, device/asus/Z01K/treble.mk)
 
 # Vendor
-$(call inherit-product, vendor/xiaomi/whyred/whyred-vendor.mk)
+$(call inherit-product, vendor/asus/Z01K/whyred-vendor.mk)
 
 # VNDK-SP:
 PRODUCT_PACKAGES += \
