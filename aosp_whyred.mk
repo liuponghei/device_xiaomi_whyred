@@ -29,13 +29,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # Inherit from whyred device
-$(call inherit-product, device/xiaomi/whyred/device.mk)
+$(call inherit-product, device/asus/Z01K/device.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_NAME := aosp_whyred
-PRODUCT_DEVICE := whyred
-PRODUCT_MANUFACTURER := Xiaomi
-PRODUCT_BRAND := Xiaomi
+PRODUCT_NAME := aosp_Z01K
+PRODUCT_DEVICE := Z01K
+PRODUCT_MANUFACTURER := asus
+PRODUCT_BRAND := asus
 PRODUCT_FULL_TREBLE_OVERRIDE := true
 
 TARGET_VENDOR_PRODUCT_NAME := whyred
