@@ -240,8 +240,8 @@ TARGET_TAP_TO_WAKE_NODE := "/sys/devices/soc/c175000.i2c/i2c-1/1-0020/input/inpu
 TARGET_USES_MKE2FS := true
 
 # Vendor init
-TARGET_INIT_VENDOR_LIB := libinit_whyred
-TARGET_RECOVERY_DEVICE_MODULES := libinit_whyred
+TARGET_INIT_VENDOR_LIB := libinit_asus
+TARGET_RECOVERY_DEVICE_MODULES := libinit_asus
 
 # Wifi
 BOARD_HAS_QCOM_WLAN := true
