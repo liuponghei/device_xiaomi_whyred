@@ -19,8 +19,8 @@
 
 set -e
 
-export DEVICE=whyred
-export VENDOR=xiaomi
+export DEVICE=Z01K
+export VENDOR=asus
 export TREBLE_COMPATIBLE=1
 
 # Load extract_utils and do some sanity checks
